@@ -1,1 +1,32 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'Press Start 2P', sans-serif;
+  
+  --text-font-weight: 400;
+  --title-font-weight: 700;
+
+  --header-width: clamp(375px, 100%, 700px);
+  --header-height: clamp(327px, 100vw, 368px);
+  --logo-font-size: clamp(49px, 10vw, 65px);
+  --title-font-size: clamp(14px, 3vw, 23px);
+
+  --content-width: clamp(375px, 100%, 700px);
+
+  --button-save-width: clamp(306px, 50%, 335px);
+  --button-text-color: #ffffff;
+  --button-hover-color: #000000;
+  --accent-color: #000000;
+
+  --stroke-color: #ffffff;
+  --label-stroke-width: 0.75px;
+
+  --background-image:
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+}
